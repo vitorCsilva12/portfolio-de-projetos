@@ -5,42 +5,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Meu portfólio</title>
 </head>
 
 <body>
     <header class="container text-center">
-        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150" srcset="">
-        <p class="lead">Eu sou Fernanda_</p>
-        <h1>Eu ensino Programação</h1>
-        <p>Sou Engenheira de Computação e Pedagoga. Ensino pensamento computacional para estudantes do Ensino
-            Fundamental e Médio. Ensino sobre pensamento computacional usando HTML, CSS e JavaScript. Veja os projetos
-            que já desenvolvi!</p>
+        <img src="img/eu.jpg" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Opa, sou o Vitor_</p>
+        <h1>Aprendiz de programação</h1>
+        <p>Sou aprendiz de Programação . Sou uma pessoa curiosa e determinada, sempre em busca de novos conhecimentos e habilidades. Minha paixão por tecnologia me motiva a enfrentar desafios e a resolver problemas de forma criativa.</p>
         <p>Minhas habilidades</p>
         <div>
-            <p class="badge bg-secondary">HTML</p>
-            <p class="badge bg-secondary">CSS</p>
-            <p class="badge bg-secondary">JavaScript</p>
-            <p class="badge bg-secondary">Scratch</p>
+            <p class="badge bg-secondary">Excel</p>
+            <p class="badge bg-secondary">P5js</p>
+            <p class="badge bg-secondary">Edição de fotos</p>
+            
         </div>
     </header>
-    <main class="container">
+    <main class="container mt-5">
         <h2>Meus projetos</h2>
         <div class="row">
+            <!-- Projeto 1 -->
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="card">
+                    <img src="img/video game.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Video game</h5>
+                        <p class="card-text">Sou muito fã de jogos eletronicos , ja joguei diversos jogos. Sou muito bom no call of duty Warzone até disputando campeonato
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
                     </div>
-                  </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/excel.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title"> Excel
+                            </h5>
+                        <p class="card-text">Consigo desenvolver planilhas bonitas e funcionais. Assim consigo ajudar com a gestão de uma forma mais rapida e organica </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/basquete.webp" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Basquete
+                        </h5>
+                        <p class="card-text">Pratiquei basquete minha infancia inteira, joguei por um time pórem, atualmente jogo apenas para me distrair e passar o tempo 
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
             </div>
         </div>
-
     </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Warzone</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Call of Duty: Warzone é um jogo eletrônico free-to-play do gênero battle royale desenvolvido pela Infinity Ward e Raven Software e publicado pela Activision. Lançado em 10 de março de 2020 para Microsoft Windows, PlayStation 4 e Xbox One, o jogo faz parte do título Call of Duty: Modern Warfare, mas não requer compra.</p>
+                    <img src="img/warzone.webp" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.activision.com/">site da produtora do jogo</a>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Excel</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O Excel é uma ferramenta incrivelmente poderosa para tornar significativa uma vasta quantidade de dados. Mas ele também funciona muito bem para cálculos simples e para rastrear de quase todos os tipos de informações. A chave para desbloquear todo esse potencial é a grade de células.
+                    </p>
+                    <img src="img/excel 2.0.avif" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a 
+                    <a href="https://excel.cloud.microsoft/">Site do app
+                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Basquete</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O basquetebol, popularmente conhecido como basquete (português brasileiro) ou básquete (português europeu)[nota 1], é um esporte coletivo inventado em 1891 pelo professor de educação física canadense James Naismith, na Associação Cristã de Moços de Springfield, em Massachusetts, nos Estados Unidos.[1] É disputado por duas equipes de 12 jogadores (cinco em quadra e sete reservas) que têm como objetivo passar a bola por dentro de uma cesta (ou aro) e evitar que a bola entre na sua cesta colocada nas extremidades da quadra, seja num ginásio ou ao ar livre. Os jogadores podem caminhar na quadra, desde que driblem (batam a bola contra o chão) a cada passo dado. Também é possível executar um passe, ou seja, passar a bola em direção a um companheiro de equipe.</p>
+                    <img src="img/Pre_Olimpico_de-_Basquete-Masculino_Brasil_vence_Filipinas_vai_a_final_e_fica_a_um_jogo_de_Paris-e1720273472112.webp" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.nba.com/">Site da NBA</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/femascheti">VitorCosta</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
